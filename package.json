@@ -5,6 +5,9 @@
   "description": "A native application built with NativeScript-Vue",
   "author": "Ji-Haw FOO <foo_ji-haw@tech.gov.sg>",
   "license": "MIT",
+  "nativescript": {
+    "id": "info.kungfoo.pablo"
+  },
   "dependencies": {
     "@nativescript/core": "^7.0.3",
     "@vue/devtools": "^5.3.3",

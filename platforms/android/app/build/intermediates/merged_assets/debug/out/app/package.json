@@ -1,6 +1,6 @@
 {
     "name": "vue-nscript",
-    "id": "org.nativescript.application",
+    "id": "info.kungfoo.pablo",
     "appPath": "src",
     "appResourcesPath": "App_Resources",
     "android": {
