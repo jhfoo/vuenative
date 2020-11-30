@@ -1,4 +1,5 @@
 *.apk
+platforms/
 
 # Logs
 logs
