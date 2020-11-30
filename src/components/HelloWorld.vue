@@ -4,7 +4,7 @@
         <ScrollView>
             <StackLayout class="home-panel">
                 <!--Add your page content here-->
-                <Label textWrap="true" text="Play with NativeScript!"
+                <Label textWrap="true" text="Welcome to Pablo"
                     class="h2 description-label" />
                 <Label textWrap="true" :text="count" />
                 <Label textWrap="true"

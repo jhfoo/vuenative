@@ -4,6 +4,10 @@
         "directory": "..\\..\\node_modules\\@nativescript\\core"
     },
     {
+        "name": "nativescript-barcodescanner",
+        "directory": "..\\..\\node_modules\\nativescript-barcodescanner"
+    },
+    {
         "name": "nativescript-socketio",
         "directory": "..\\..\\node_modules\\nativescript-socketio"
     },

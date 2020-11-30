@@ -19,5 +19,9 @@
 	"nativescript-ui-core": {
 		"D:\\jhcodes\\vuenative\\node_modules\\nativescript-ui-core\\platforms\\android\\TNSCore-release.aar": "0e2fe0b867821ad56b8f0b9c8ac4c90f4c399e3c",
 		"D:\\jhcodes\\vuenative\\node_modules\\nativescript-ui-core\\platforms\\android\\typings\\core.d.ts": "5c032652edfa1719ef8c8190fc0f66d3b1c313c2"
+	},
+	"nativescript-barcodescanner": {
+		"D:\\jhcodes\\vuenative\\node_modules\\nativescript-barcodescanner\\platforms\\android\\nativescript_barcodescanner.aar": "7a791a809ec0089c58a90305a861707f59471af8",
+		"D:\\jhcodes\\vuenative\\node_modules\\nativescript-barcodescanner\\platforms\\android\\barcodescanner-release-2.1.6.aar": "03bb6a9683c3ee6b620304f321ea48e5de071ae3"
 	}
 }

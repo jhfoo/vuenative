@@ -11,6 +11,7 @@ D:\jhcodes\vuenative\platforms\android\app\build\exploded-dependencies\3b60c483f
 D:\jhcodes\vuenative\platforms\android\app\build\exploded-dependencies\40b9b1b26fee12f7ce7604861040d589\classes.jar
 D:\jhcodes\vuenative\platforms\android\app\build\exploded-dependencies\48469e70e290710ff958c8a392683871\core-common-2.1.0.jar
 D:\jhcodes\vuenative\platforms\android\app\build\exploded-dependencies\4f983267f6d088f758936798dda5e2de\classes.jar
+D:\jhcodes\vuenative\platforms\android\app\build\exploded-dependencies\4fe2429c522fe63104a56d91c1deabdf\classes.jar
 D:\jhcodes\vuenative\platforms\android\app\build\exploded-dependencies\51ab061f6a5fa827f8d6a1ab961c91d6\classes.jar
 D:\jhcodes\vuenative\platforms\android\app\build\exploded-dependencies\54268132aa89c2359e489bbb68ea999e\classes.jar
 D:\jhcodes\vuenative\platforms\android\app\build\exploded-dependencies\56011c05fc13d001fe36161f79bb7837\classes.jar
@@ -34,6 +35,7 @@ D:\jhcodes\vuenative\platforms\android\app\build\exploded-dependencies\9edc132f1
 D:\jhcodes\vuenative\platforms\android\app\build\exploded-dependencies\a0cfb7e69b4e672dbfa98d852c54c8c2\classes.jar
 D:\jhcodes\vuenative\platforms\android\app\build\exploded-dependencies\a2ae03fb0500e49a9439c18588fe4770\classes.jar
 D:\jhcodes\vuenative\platforms\android\app\build\exploded-dependencies\a3e3d6995e5fd2af9668b698ca1778d4\classes.jar
+D:\jhcodes\vuenative\platforms\android\app\build\exploded-dependencies\ab9f2038c7a1eee0cf30c9e83c5924d3\classes.jar
 D:\jhcodes\vuenative\platforms\android\app\build\exploded-dependencies\aeba53d450c15ef444c560a93c9bee35\classes.jar
 D:\jhcodes\vuenative\platforms\android\app\build\exploded-dependencies\b488360f378034cc96fb6042ad8a85f6\classes.jar
 D:\jhcodes\vuenative\platforms\android\app\build\exploded-dependencies\bb0b72920ee3693d2c601347bb0e77b1\classes.jar

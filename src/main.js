@@ -12,6 +12,8 @@ import store from '~/store'
 // Prints Vue logs when --env.production is *NOT* set while building
 Vue.config.silent = (TNS_ENV === 'production')
 
+Vue.registerElement('BarcodeScanner', () => require('nativescript-barcodescanner').BarcodeScannerView)
+
 // Uncommment the following to see NativeScript-Vue output logs
 //Vue.config.silent = false;
 Vue.prototype.$routes = Routes
