@@ -1,17 +1,24 @@
 <template>
-    <Page>
-        <ActionBar :title="title" />
-        <ScrollView>
-            <StackLayout class="home-panel">
-                <!--Add your page content here-->
-                <Label textWrap="true" text="Welcome to Pablo"
-                    class="h2 description-label" />
-                <Label textWrap="true" :text="count" />
-                <Label textWrap="true"
-                    text="Scan the QR code with your mobile device and watch the changes sync live while you play with the code."
-                    class="h2 description-label" />
-                <Button text="Drawer" class="btn -primary"
-                    @tap="onToggleDrawer" />
+    <Page class="scrollStyle">
+        <Header/>
+        <ScrollView class="scrollStyle">
+            <StackLayout class="scrollStyle">
+                <card-view class="cardStyle" elevation="40" radius="10">
+                    <stack-layout>
+                        <label text="Helloooo World"></label>
+                        <Label textWrap="true" text="Welcome to Pablo"
+                            class="h2 description-label" />
+                    </stack-layout>
+                </card-view>
+                <card-view class="cardStyle" margin="20" padding="20" elevation="40" radius="10">
+                    <stack-layout>
+                        <Label textWrap="true" :text="count" />
+                        <Label textWrap="true"
+                            text="Scan the QR code with your mobile device and watch the changes sync live while you play with the code."
+                            class="h2 description-label" />
+                    </stack-layout>
+                </card-view>
+
                 <Button text="Blue Button" class="btn -primary"
                     @tap="onButtonTap" />
                 <GridLayout rows="*" height="1000px">
@@ -30,24 +37,36 @@
     </Page>
 </template>
 
+<style scoped>
+.BarStyle {
+    background-color:  #d05A33;
+    color: white;
+}
+.scrollStyle {
+  background-color: #fff;
+}
+.cardStyle {
+  background-color: #3489db;
+  color: #fff;
+  margin-top: 20;
+  margin-left: 20;
+  margin-right: 20;
+}
+</style>
+
 <script>
     import Vue from "nativescript-vue";
     import RadCartesianChart from "nativescript-ui-chart/vue";
-    import Page2 from "./Page2";
-    import SideDrawer from "~/mixins/sidedrawer";
+    import Page2 from "./Page2"
+    import Header from "./Header"
     Vue.use(RadCartesianChart);
 
     export default {
-        mixins: [SideDrawer],
         components: {
-            Page2
+            Page2,
+            Header
         },
         methods: {
-            onToggleDrawer() {
-                this.count++;
-                this.drawer = true;
-                console.log(this.drawer);
-            },
             onButtonTap() {
                 this.count++;
                 console.log("Button was pressed");

@@ -1,5 +1,5 @@
 <template>
-    <RadSideDrawer ref="drawer" drawerLocation="Left"
+    <RadSideDrawer ref="drawer" drawerLocation="Left" @drawerClosed="onCloseDrawer"
         :gesturesEnabled="gesturesEnabled">
         <StackLayout ~drawerContent backgroundColor="gray">
             <slot name="drawerContent"></slot>
@@ -13,21 +13,25 @@
 <script>
     import Vue from "nativescript-vue";
     import RadSideDrawer from "nativescript-ui-sidedrawer/vue";
-    import HelloWorld from "./HelloWorld";
+    // import HelloWorld from "./HelloWorld";
     import SideDrawer from "~/mixins/sidedrawer";
     Vue.use(RadSideDrawer);
 
     export default {
         mixins: [SideDrawer],
-        components: {
-            HelloWorld
-        },
+        // components: {
+        //     HelloWorld
+        // },
         methods: {
             onOpenDrawerTap() {
                 this.$refs.drawer.nativeView.showDrawer();
             },
             onCloseDrawerTap() {
                 this.$refs.drawer.nativeView.closeDrawer();
+            },
+            onCloseDrawer() {
+                console.log('Drawer closed')
+                this.closeDrawer()
             }
         },
 

@@ -13,6 +13,8 @@ import store from '~/store'
 Vue.config.silent = (TNS_ENV === 'production')
 
 Vue.registerElement('BarcodeScanner', () => require('nativescript-barcodescanner').BarcodeScannerView)
+Vue.registerElement('CardView', () => require('@nstudio/nativescript-cardview').CardView)
+  
 
 // Uncommment the following to see NativeScript-Vue output logs
 //Vue.config.silent = false;

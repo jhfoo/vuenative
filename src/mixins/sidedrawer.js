@@ -2,14 +2,14 @@ export default {
     data() {
         return {
             // we'll use this to enable gestures on our sideDrawer.
-            gesturesEnabled: false
+            gesturesEnabled: true
         }
     },
     computed: {
         // drawerElement points to the drawer node using vue $refs
         drawerElement() { return (this.$refs && this.$refs.drawer) || null },
         // drawer is responsible for getting and setting the sideDrawer property in vuex state.
-        drawer: {
+        isShowDrawer: {
             get() {
                 return this.$store.getters.isShow
             },
@@ -18,7 +18,7 @@ export default {
     },
     watch: {
         // we watch the drawer prop for changes and open/close the sideDrawer accordingly
-        drawer(v) {
+        isShowDrawer(v) {
             if (this.drawerElement) {
                 return v ?
                     this.drawerElement.nativeView.showDrawer() :
@@ -33,10 +33,12 @@ export default {
         },
         // some helpful methods for opening and closing the drawer from the vue instance.
         openDrawer() {
-            this.drawer = true
+            console.log('drawer: ' + this.isShowDrawer)
+            this.isShowDrawer = true
         },
         closeDrawer() {
-            this.drawer = false
+            console.log('drawer: ' + this.isShowDrawer)
+            this.isShowDrawer = false
         }
     }
 }

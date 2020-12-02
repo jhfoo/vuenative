@@ -1,5 +1,6 @@
 <template>
     <Page>
+        <Header/>
         <StackLayout orientation="vertical" backgroundColor="lightgray">
             <Label text="hello world!" />
             <Label :text="count" />
@@ -22,12 +23,14 @@
 <script>
 import { isIOS } from "@nativescript/core"
 import { BarcodeScanner } from "nativescript-barcodescanner"
+import Header from "./Header"
 
 const scanner = new BarcodeScanner()
 
     export default {
         components: {
-            nativebarcodescanner: BarcodeScanner.BarcodeScannerView
+            nativebarcodescanner: BarcodeScanner.BarcodeScannerView,
+            Header
         },
         methods: {
             onButtonTap() {
